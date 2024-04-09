@@ -1,0 +1,114 @@
+@keyframes falling {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 100%;
+  }
+}
+.falling {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  animation: falling 5s linear;
+}
+
+body {
+  overflow: hidden;
+}
+
+#profile {
+  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px,
+    rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,
+    rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px,
+    rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px,
+    rgb(255, 85, 85) 40px -40px;
+  background-image: url("profile_img1.jpg");
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  top: 17%;
+  left: 28%;
+  transform: translate(-0%, 20%);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.wrap {
+  width: 780px;
+  height: 470px;
+  background-color: aquamarine;
+  border: 4px solid;
+  border-color: black;
+  position: fixed;
+  top: 15%;
+  left: 30%;
+  transform: translate(-0%, 20%);
+  z-index: 0;
+  border-radius: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person_profile {
+  font-family: "Sunflower", sans-serif;
+  margin: 5px;
+  font-size: 20px;
+  font-style: normal;
+  position: fixed;
+  transform: translate(-280%, -700%);
+}
+.wrong_design {
+  position: fixed;
+  transform: translate(60%, -800%);
+  text-shadow: 3px 3px 2px rgb(255, 255, 255);
+  font-weight: bold;
+}
+.b_r {
+  position: fixed;
+  transform: translate(10%, -700%);
+}
+h3,
+ul {
+  margin: 5px;
+  padding-left: 40px;
+}
+.special_profile {
+  font-family: "Sunflower", sans-serif;
+  margin: 5px 5px 20px 5px;
+  font-size: 20px;
+  font-style: normal;
+  position: fixed;
+  transform: translate(-90%, -150%);
+}
+.cafe_list {
+  font-family: "Sunflower", sans-serif;
+  position: fixed;
+  transform: translate(-150%, -10%);
+}
+.music {
+  font-family: "Sunflower", sans-serif;
+  position: fixed;
+  transform: translate(50%, -50%);
+}
+.blank {
+  width: 500px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sunflower", sans-serif;
+  position: fixed;
+  transform: translate(10%, 70%);
+}
+
+.nyang {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-image: url(nyang.gif);
+}
